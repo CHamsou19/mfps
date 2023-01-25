@@ -1,0 +1,29 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#nav,button{
+    padding: 10px 20px;
+    border: none;
+    color: rgb(10, 10, 10);
+    font-weight: bolder;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    transition: all 0.4s;
+    box-shadow: black;
+}
+ body{
+   background-image: url(photo/1.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
+ #start-up,h1,p{
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+color: black;
+
+ }
+ #star-up,img:hover{
+    transform: scale(1.1);
+ }
